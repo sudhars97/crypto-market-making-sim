@@ -5,8 +5,8 @@ Event-loop market-making simulator over OHLCV bar data.
 
 import pandas as pd
 import numpy as np
-from src.pricing import compute_quotes
-from src.risk import check_inventory_limit, apply_stop_loss
+from pricing import compute_quotes
+from risk import check_inventory_limit, apply_stop_loss
 
 
 def run_simulation(df: pd.DataFrame, spread_base: float = 0.0002,
