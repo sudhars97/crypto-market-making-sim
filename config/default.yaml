@@ -1,0 +1,17 @@
+symbol: BTCUSDT
+interval: 1m
+start_year: 2024
+start_month: 1
+end_month: 3
+
+# Pricing rule parameters
+spread_base: 0.0002
+vol_multiplier: 5.0
+vol_window: 20
+
+# Risk / inventory
+inventory_limit: 0.05
+skew_factor: 0.5
+
+# Execution assumptions
+fee_rate: 0.0001
