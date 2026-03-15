@@ -20,7 +20,21 @@ The core challenge: how do you price your quotes to capture spread while managin
 5. **Evaluation:** Sharpe ratio, max drawdown, spread capture, inventory profile
 
 ## Key Results
-> *(to be filled after running simulation)*
+
+| Metric | Primary (Jan–Mar 2024) | Stress (Nov 2022 FTX) |
+|--------|----------------------|----------------------|
+| Total PnL | $-383.28 | $-89,850.77 |
+| Sharpe Ratio | -58.731 | -51.750 |
+| Max Drawdown | $-458.66 | $-89,871.96 |
+| Spread Capture | -780040.00 bps | -648132.62 bps |
+| Total Buy Fills | 5 | 1,359 |
+| Total Sell Fills | 6 | 1,358 |
+| Peak Inventory | 1.0000 BTC | 1.0000 BTC |
+
+> **Stress finding:** During the FTX collapse (Nov 2022), the default stop-loss of $-500
+> triggered within ~8 hours, halting execution. Stress results above use stop-loss disabled
+> to study full-period behaviour. This highlights the need for dynamic stop-loss
+> calibration under regime-change events.
 
 ## Repo Structure
 
