@@ -2,7 +2,7 @@
 
 A quantitative research project simulating a **market-making strategy on BTC/USDT** using Binance public 1-minute OHLCV data.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/crypto-market-making-sim/blob/main/notebooks/04_simulation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sudhars97/crypto-market-making-sim/blob/main/notebooks/04_simulation.ipynb)
 
 ---
 
@@ -39,7 +39,7 @@ Click the 'Open in Colab' badge above and run `04_simulation.ipynb`.
 
 **Option 2 — Locally:**
 
-    git clone https://github.com/YOUR_USERNAME/crypto-market-making-sim
+    git clone https://github.com/sudhars97/crypto-market-making-sim
     cd crypto-market-making-sim
     pip install -r requirements.txt
     jupyter notebook
